@@ -1,0 +1,30 @@
+.div{
+    background-image: url(../assets/background1.jpeg);
+    background-repeat: no-repeat;
+    background-color: violet;
+    background-size: cover;
+}
+.div1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRe5dyqi7uPtolye9q5DWEPOeTvhYgMrjyZw&s);
+    background-repeat: no-repeat;
+    background-position: 35% 60%;
+}
+.div3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB04oS5PkJg5dGgZx9DB9-tEk9hIbyUSiTyb5SX-p_XdoBtRQ35wd2lnL0IYTGngL6__Q&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}   
+.div4{
+    border: 5px dotted black;
+    padding: 15px;
+    background-color: lightblue;
+    background-image: url(../assets/gojo-satoru.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-clip: padding-box; */
+    background-origin: content-box;
+}
+h1{
+    text-indent: 200px;
+}

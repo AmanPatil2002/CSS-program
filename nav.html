@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ul{
+            list-style: none;
+            background-color: lightblue;
+            /*text-align: right;*/
+        }
+        li{
+            display: inline-block;
+            padding: 20px;
+        }
+        a{
+            color: rgb(1, 51, 75);
+            text-decoration: none;
+            font-size: 10px;
+        }
+        .li1{
+            margin-left: 50px;
+        }
+        .main{
+            width: 60px;
+            height: 45px;
+            border: 1px solid black;
+            border-radius: 4px;
+            margin: 20px;
+            display: none;
+        }
+        .line{
+            width: 40px;
+            height: 2px;
+            background-color: black;
+            margin: 9px;
+        }
+        @media (max-width:768px){
+            .main{
+                display: block;
+            }
+            ul{
+                display: none;
+            }
+        }
+        .parent{
+            width: 100%;
+        }
+        .child1,.child2{
+            width: 300px;
+            height: 200px;
+            box-shadow: 1px 1px 2px black;
+            border-radius: 10px;
+            text-align: center;
+            padding-top: 10px;
+            margin-left: 50px;
+            margin-top: 30px;
+            display: inline-block;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    <ul>
+        <li class="li1"><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="">Project</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+    <div class="parent">
+        <div class="child1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum doloribus, minus doloremque qui praesentium officia eligendi quos. Soluta fugit harum iure consequuntur natus ratione ducimus commodi temporibus sit optio?
+        </div>
+        <div class="child2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum doloribus, minus doloremque qui praesentium officia eligendi quos. Soluta fugit harum iure consequuntur natus ratione ducimus commodi temporibus sit optio?
+        </div>
+        <div class="child2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum doloribus, minus doloremque qui praesentium officia eligendi quos. Soluta fugit harum iure consequuntur natus ratione ducimus commodi temporibus sit optio?
+        </div>
+        <div class="child2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum doloribus, minus doloremque qui praesentium officia eligendi quos. Soluta fugit harum iure consequuntur natus ratione ducimus commodi temporibus sit optio?
+        </div>
+</body>
+</html>

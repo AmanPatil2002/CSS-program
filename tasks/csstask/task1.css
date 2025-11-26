@@ -1,0 +1,18 @@
+#abc{
+    color: rgb(11, 58, 212);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.def{
+    font-style: italic;
+    font-size: 15px;
+}
+h1{
+    border: 2px solid rgb(15, 2, 13);
+    border-radius: 5px;
+    font-size: 18px;
+    font-style: bold;
+    color: rgb(7, 246, 43);
+    box-shadow: 2px 2px 2px;
+    background-color: red;
+}

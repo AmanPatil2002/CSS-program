@@ -1,206 +1,114 @@
 # CSS Practice Program
 
-This folder is a beginner-friendly CSS learning project that demonstrates core CSS concepts through small standalone HTML pages and practical tasks. Each file focuses on one idea, making it easier to understand how CSS works visually.
+A beginner-friendly CSS learning project that demonstrates core CSS concepts through small standalone HTML pages and hands-on practice tasks. Each file focuses on one idea, so it's easy to see how CSS works visually.
 
-## What this project includes
+## Table of Contents
 
-The project contains:
-- Basic CSS demonstrations for layout, text, colors, borders, backgrounds, typography, selectors, hover effects, and responsiveness
-- Small practice tasks that apply those concepts in a hands-on way
+- [What's Included](#whats-included)
+- [Project Structure](#project-structure)
+- [Concept Pages](#concept-pages)
+- [Practice Tasks](#practice-tasks)
+- [Getting Started](#getting-started)
+- [Learning Goals](#learning-goals)
+- [Suggested Study Order](#suggested-study-order)
+- [Author](#author)
+
+## What's Included
+
+- Demonstrations of layout, text, colors, borders, backgrounds, typography, selectors, hover effects, positioning, and responsive design
+- Practice tasks that apply those concepts in a hands-on way
 - A simple folder structure for stylesheets and assets
 
-## Main project files
+## Project Structure
 
-### 1. Types-of-css.html
-This page explains the three main ways of applying CSS:
-- Inline CSS
-- Internal CSS
-- External CSS
+```
+CSS-program/
+├── .vscode/              # Editor settings
+├── assets/               # Background images and GIFs used by the pages
+├── cssFiles/             # External stylesheets (e.g. selector.css, background.css)
+├── tasks/                # Practice exercises (task1 to task5, login)
+├── Types-of-css.html
+├── selector.html
+├── background.html
+├── border.html
+├── text.html
+├── font.html
+├── font-properties.html
+├── list.html
+├── margin.html
+├── display.html
+├── hover.html
+├── nav.html
+├── position.html
+├── responsive.html
+└── README.md
+```
 
-It uses a combination of embedded styles and an external stylesheet to show how CSS can be written in different places.
+## Concept Pages
 
-### 2. selector.html
-This page demonstrates CSS selectors.
-It shows how elements can be styled using:
-- Element selectors
-- ID selectors
-- Class selectors
-- Grouped selectors
+| File | What it demonstrates |
+| --- | --- |
+| `Types-of-css.html` | The three ways of applying CSS: inline, internal, and external |
+| `selector.html` | Element, ID, class, and grouped selectors (styles in `cssFiles/selector.css`) |
+| `background.html` | Background color, image, repeat, position, attachment, size, and clipping (styles in `cssFiles/background.css`) |
+| `border.html` | Border width, style, color, and rounded corners with `border-radius` |
+| `text.html` | Alignment, color, indentation, transformation, letter and word spacing, line height, and text shadow |
+| `font.html`, `font-properties.html` | Font families, weight, style, imported Google Fonts, and basic font customization |
+| `list.html` | List item styling, marker position, and basic list customization |
+| `margin.html` | Margin and padding shorthand, box model concepts, and overflow handling |
+| `display.html` | The `display` property, inline-block layout, box styling, spacing, and alignment |
+| `hover.html` | Hover effects, display toggling, and background image overlays |
+| `nav.html` | A navigation bar with bullet-free lists, inline-block links, and a responsive hamburger-style menu |
+| `position.html` | Relative, absolute, fixed, and sticky positioning |
+| `responsive.html` | Responsive design with media queries |
 
-The related stylesheet is in cssFiles/selector.css.
+## Practice Tasks
 
-### 3. background.html
-This page focuses on background styling in CSS.
-It demonstrates:
-- Background images
-- Background color
-- Background repeat
-- Background position
-- Background attachment
-- Background size and clipping concepts
+| File | Exercise |
+| --- | --- |
+| `tasks/task1.html` | Styling with ID, class, and element selectors, plus borders, shadows, and font styling |
+| `tasks/task2.html` | A simple form page with centered alignment, font styling, background colors, and a button-like link |
+| `tasks/task3.html` | A table-based task covering text styling, table formatting, colors, and selectors |
+| `tasks/task4.html` | A colorful layout with multiple styled boxes and centered card-like sections |
+| `tasks/task5.html` | A design exercise using borders, shadows, padding, images, and a gradient background |
+| `tasks/login.html` | A simple success page used as the navigation target for the form task |
 
-The styles are defined in cssFiles/background.css.
+## Getting Started
 
-### 4. border.html
-This page shows how borders can be styled using CSS.
-It covers:
-- Border width
-- Border style
-- Border color
-- Rounded corners using border-radius
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AmanPatil2002/CSS-program.git
+   ```
+2. Open any `.html` file in your browser (or use the *Live Server* extension in VS Code).
+3. Edit the HTML and CSS to experiment with different properties, then refresh to compare the results.
 
-### 5. text.html
-This page demonstrates text-related CSS properties.
-It includes examples of:
-- Text alignment
-- Text color
-- Text indentation
-- Text transformation
-- Letter spacing
-- Word spacing
-- Line height
-- Text shadow
+No installation or build tools are required. Pages that use Google Fonts need an internet connection.
 
-### 6. font.html and font-properties.html
-These pages focus on typography.
-They demonstrate:
-- Font families
-- Font weight
-- Font style
-- Imported Google Fonts
-- Basic font customization
-
-These pages are useful for understanding how text appearance is controlled in CSS.
-
-### 7. list.html
-This page shows how to style lists using CSS.
-It demonstrates:
-- List item styling
-- List position inside the list marker area
-- Basic list customization
-
-### 8. margin.html
-This page explains spacing using margin and padding.
-It demonstrates:
-- Margin shorthand
-- Padding shorthand
-- Box model concepts
-- Overflow handling
-
-### 9. display.html
-This page is about the display property.
-It shows how elements can be arranged using:
-- Inline-block layout
-- Box styling
-- Spacing and alignment
-
-### 10. hover.html
-This page demonstrates hover effects.
-It shows how an element changes when the mouse moves over it, including:
-- Display toggling on hover
-- Background image overlay effects
-- Simple interactive UI styling
-
-### 11. nav.html
-This page demonstrates a simple navigation bar.
-It uses:
-- List styling without bullets
-- Inline-block links
-- A responsive hamburger-style menu for smaller screens
-
-### 12. position.html
-This page explains CSS positioning.
-It includes examples of:
-- Relative positioning
-- Absolute positioning
-- Fixed navigation
-- Sticky elements
-
-### 13. responsive.html
-This page demonstrates responsive web design using media queries.
-It shows how the appearance of an element changes when the screen size becomes smaller.
-
-## Practice tasks
-
-The tasks folder contains small assignments that apply CSS concepts in a practical way.
-
-### tasks/task1.html
-A beginner styling exercise using:
-- ID selectors
-- Class selectors
-- Element selectors
-- Borders
-- Shadows
-- Font styling
-
-### tasks/task2.html
-A simple form styling page that applies:
-- Center alignment
-- Font styling
-- Background colors
-- Button-like styled link appearance
-
-### tasks/task3.html
-A table-based CSS task that demonstrates:
-- Text styling
-- Table formatting
-- Color usage
-- Different CSS selectors
-
-### tasks/task4.html
-A colorful layout practice page that shows:
-- Multiple styled boxes
-- Different background colors
-- Centered card-like sections
-
-### tasks/task5.html
-A design exercise that uses:
-- Borders
-- Shadows
-- Padding
-- Images
-- Gradient background styling
-
-### tasks/login.html
-A simple success page used as a navigation target for the form task.
-
-## Stylesheets and assets
-
-The project uses the following stylesheet folder:
-- cssFiles/
-
-It also uses image assets from the assets folder, including:
-- background images
-- GIFs used in hover and task pages
-
-## How to use this project
-
-1. Open any HTML file in a browser.
-2. Edit the HTML and CSS files to experiment with different properties.
-3. Compare the results visually to understand how each CSS rule behaves.
-
-## Learning goals
+## Learning Goals
 
 By working through this project, you will learn:
+
 - How to link CSS to HTML
 - How selectors work
 - How to style text, boxes, borders, and backgrounds
 - How spacing and layout are controlled
-- How responsive design works
-- How hover and positioning effects are created
+- How hover, positioning, and responsive effects are created
 
-## Suggested order to study
+## Suggested Study Order
 
-If you are new to CSS, it is best to go through the files in this order:
-1. Types-of-css.html
-2. selector.html
-3. background.html
-4. text.html
-5. font.html
-6. margin.html
-7. display.html
-8. hover.html
-9. nav.html
-10. position.html
-11. responsive.html
-12. tasks folder exercises
+1. `Types-of-css.html`
+2. `selector.html`
+3. `background.html`
+4. `text.html`
+5. `font.html`
+6. `margin.html`
+7. `display.html`
+8. `hover.html`
+9. `nav.html`
+10. `position.html`
+11. `responsive.html`
+12. Exercises in the `tasks/` folder
+
+## Author
+
+**Aman Patil** — [@AmanPatil2002](https://github.com/AmanPatil2002)
